@@ -2,6 +2,7 @@
 
 name: Convert LaTeX to PDF
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - main
